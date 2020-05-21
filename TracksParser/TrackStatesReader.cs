@@ -26,9 +26,7 @@ namespace TracksParser
         }
         
       }
-
-      Console.WriteLine($"Total track records: {trackStates.Count}");
-
+      
       return trackStates;
     }
   }
