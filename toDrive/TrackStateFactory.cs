@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 using Android.Graphics;
 using Android.Util;
 using Newtonsoft.Json;
-using toDrive.Models;
+using toDrive.Domain.Models;
 
 namespace toDrive
 {

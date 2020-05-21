@@ -76,7 +76,6 @@
     <Compile Include="Constants.cs" />
     <Compile Include="ErrorSender.cs" />
     <Compile Include="MainActivity.cs" />
-    <Compile Include="Models\TrackState.cs" />
     <Compile Include="Resources\Resource.designer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="StateSender.cs" />
@@ -151,6 +150,12 @@
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\mipmap-xxxhdpi\icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\2Drive.Domain\2Drive.Domain.csproj">
+      <Project>{560e3d4e-8db9-4e11-b66c-876b3abf82b6}</Project>
+      <Name>2Drive.Domain</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it.

@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "TracksParser": {
+      "commandName": "Project",
+      "commandLineArgs": "C:\\Users\\user\\Downloads\\tracks\\TrackStates_20-05-20-04-07-08"
+    }
+  }
+}

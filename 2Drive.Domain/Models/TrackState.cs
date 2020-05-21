@@ -1,7 +1,6 @@
 ﻿using System;
-using System.Reflection.Emit;
 
-namespace toDrive.Models
+namespace toDrive.Domain.Models
 {
   public class TrackState
   {

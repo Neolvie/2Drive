@@ -5,7 +5,9 @@ VisualStudioVersion = 16.0.30104.148
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2Drive", "toDrive\2Drive.csproj", "{46BF145C-35A1-463C-8876-6BA5F566451A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TracksParser", "TracksParser\TracksParser.csproj", "{66D91D99-4E68-4619-9C85-1462E88F474B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TracksParser", "TracksParser\TracksParser.csproj", "{66D91D99-4E68-4619-9C85-1462E88F474B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2Drive.Domain", "2Drive.Domain\2Drive.Domain.csproj", "{560E3D4E-8DB9-4E11-B66C-876B3ABF82B6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,6 +25,10 @@ Global
 		{66D91D99-4E68-4619-9C85-1462E88F474B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{66D91D99-4E68-4619-9C85-1462E88F474B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{66D91D99-4E68-4619-9C85-1462E88F474B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{560E3D4E-8DB9-4E11-B66C-876B3ABF82B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{560E3D4E-8DB9-4E11-B66C-876B3ABF82B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{560E3D4E-8DB9-4E11-B66C-876B3ABF82B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{560E3D4E-8DB9-4E11-B66C-876B3ABF82B6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
